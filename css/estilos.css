@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../imagenes/imagenesdeweb/instalacion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ruby {
+  margin: 1%;
+  text-align: center;
+}
+.ruby .t-stroke {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #b9b8b8;
+  -webkit-text-stroke-color: #fffcfc;
+}
+.ruby .t-shadow {
+  text-shadow: 7px 7px #000000;
+}
+
+.cartas {
+  display: flex;
+}
+.cartas .card {
+  display: flex;
+  margin: 4%;
+}
+.cartas .textoP {
+  font-size: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: darkslategrey;
+}
+
+.tabla {
+  background-color: #e3e3e3;
+  opacity: 80%;
+}
+
+.cajas00 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cajas00 .cajas01 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.cajas00 .cajas01 .card-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000000;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
